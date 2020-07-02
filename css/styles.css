@@ -1,0 +1,177 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.7rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-weight: 700;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+
+/* Navigation Bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-item{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features */
+
+#features{
+  margin: 0 15%;
+  padding: 7% 0;
+  background-color: white;
+  position: relative;
+}
+
+.feat-col{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials{
+  background-color: #ef8172;
+
+  text-align: center;
+  color: white;
+}
+
+.testimonial-doggo{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1120px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+
+}
+
+/* Footer section */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 20%;
+}
+
+.foot-header{
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+#footer{
+  text-align: center;
+  padding: 7%;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.footer-images{
+  padding: 2% 1%;
+  font-size: 16px;
+}
